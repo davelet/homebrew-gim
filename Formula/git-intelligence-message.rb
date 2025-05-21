@@ -10,7 +10,7 @@ class GitIntelligenceMessage < Formula
   bottle do
     rebuild 1
     sha256 cellar: :any_skip_relocation, sonoma: "512792dce52be0ec12caac009916ea17118af299b2e78169c21069e202d7264e"
-    root_url "https://github.com/davelet/git-intelligence-message/releases/download/v1.2.1/git-intelligence-message--1.2.1.sonoma.bottle.1.tar.gz"
+    root_url "https://github.com/davelet/git-intelligence-message/releases/download/v1.2.1"
   end
 
   def install
