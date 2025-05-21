@@ -7,7 +7,11 @@ class GitIntelligenceMessage < Formula
   version "1.2.2"
   head "https://github.com/davelet/git-intelligence-message.git", branch: "main"
 
-  depends_on "rust" => :build
+  bottle do
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, sonoma: "b478f239a65b704c85cc59b1a50fcde797bbbf9c142972c08f529e5bea3f5b7a"
+    root_url "https://github.com/davelet/git-intelligence-message/releases/download/v1.2.2"
+  end
 
   def install
     system "cargo", "install", *std_cargo_args
