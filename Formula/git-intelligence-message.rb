@@ -2,7 +2,7 @@ class GitIntelligenceMessage < Formula
   desc "AI-powered Git commit message generator"
   homepage "https://github.com/davelet/git-intelligence-message"
   url "https://github.com/davelet/git-intelligence-message/archive/refs/tags/v1.8.2.tar.gz"
-  sha256 "e26cba7cba44da7b1336a55da4965fd2a0d72280e00e505085baaee657fba4f3"
+  sha256 "adcf922a74a7863d7918048fd3b2f47b4dce0742486a3cfca570cbc78a8b745f"
   license "MIT"
   version "1.8.2"
   head "https://github.com/davelet/git-intelligence-message.git", branch: "main"
