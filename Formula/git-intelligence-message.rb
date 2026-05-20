@@ -1,25 +1,25 @@
 class GitIntelligenceMessage < Formula
   desc "An advanced Git commit message generation utility with AI assistance"
   homepage "https://git-intelligence-message.pages.dev/"
-  version "2.1.3"
+  version "2.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/davelet/git-intelligence-message/releases/download/v2.1.3/git-intelligence-message-aarch64-apple-darwin.tar.xz"
-      sha256 "ac7c20bddd8bbb62b3154a0d25b7d151ae506f39d37165351d55f407402a2de6"
+      url "https://github.com/davelet/git-intelligence-message/releases/download/v2.1.4/git-intelligence-message-aarch64-apple-darwin.tar.xz"
+      sha256 "4b23199455f34af252c286aa535b32e1a031a93e045766888386cf2b447d323c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/davelet/git-intelligence-message/releases/download/v2.1.3/git-intelligence-message-x86_64-apple-darwin.tar.xz"
-      sha256 "843c74dcc5b69a62f2d8a6f76fa74d064dff9b4a60fb3601aa17f8ab4e961429"
+      url "https://github.com/davelet/git-intelligence-message/releases/download/v2.1.4/git-intelligence-message-x86_64-apple-darwin.tar.xz"
+      sha256 "a7ab835e358adc2a2d84c8319fdc0c1c16b67b5434cfd64efe6dd498b6509646"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/davelet/git-intelligence-message/releases/download/v2.1.3/git-intelligence-message-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "374949656eba92e19fec2ec1df38e0b2be93cf47563ce944eb74e750ac77d5b2"
+      url "https://github.com/davelet/git-intelligence-message/releases/download/v2.1.4/git-intelligence-message-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "de393eaaed1168e060889e598d4b4b0e5e6659370b9f281b9440a9c5026caa07"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/davelet/git-intelligence-message/releases/download/v2.1.3/git-intelligence-message-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f684e49a01fcb99bc739804c01323a87620f8f01d925c5e00f1b21a56d77cff5"
+      url "https://github.com/davelet/git-intelligence-message/releases/download/v2.1.4/git-intelligence-message-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "0f0ab4cfe4e80134480bcd25d6af46307afc8e5751d044ae1a293de4333fb038"
     end
   end
   license "MIT"
